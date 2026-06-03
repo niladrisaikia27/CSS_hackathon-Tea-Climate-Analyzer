@@ -1,5 +1,24 @@
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 .ipynb_checkpoints/
 .env
-data/raw/
-models/*.pkl
+.venv/
+venv/
+.env.*
+
+# Project artifacts
+Data/*.csv
+!Data/Indian_Climate_Dataset_2024_2025.csv
+!Data/readme.md
+
+# Generated outputs
+Figures/*.png
+Model/*.pkl
+Model/*.joblib
+model_outputs/
+
+# Local notebooks / caches
+*.nbconvert.ipynb
+

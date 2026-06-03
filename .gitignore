@@ -12,13 +12,9 @@ venv/
 Data/*.csv
 !Data/Indian_Climate_Dataset_2024_2025.csv
 !Data/readme.md
+!Data/climate_clean_labeled.csv        # ← add this
 
-# Generated outputs
-Figures/*.png
-Model/*.pkl
-Model/*.joblib
 model_outputs/
 
 # Local notebooks / caches
 *.nbconvert.ipynb
-
